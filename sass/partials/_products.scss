@@ -1,0 +1,43 @@
+.product-details {
+    color: black;
+    font-size: 14px;
+
+    .price {
+        color: black;
+        font-size: 20px;
+        margin-top: 2rem;
+    }
+    .buy-now {
+        background: rgba(59, 59, 59, 0.726);
+        width: 200px;
+        padding: 1rem;
+        color: white;
+
+        &:hover {
+            background-color: grey;
+        }
+    }
+}
+
+.search {
+    background-color: transparent !important;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.349) !important;
+    width: 100% !important;
+    margin-top: .1rem;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+
+   
+}
+
+.navbar-toggler {
+    border: none;
+    color: black !important;
+    outline: none;
+
+    &:focus {
+        outline: none;
+    }
+}

@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: $font-primary;
+
+    background-color: $background-colour;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    flex: 1 0 auto;
+}
+
+
+.button-primary {
+    background: black;
+    border: none;
+    color: white;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 10rem;
+
+ 
+  
+}    
+

@@ -1,0 +1,35 @@
+.card {
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    color: black;
+
+    a {
+        color: black;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+ 
+    .card-text {
+        min-height: 70px;
+        font-family: $font-secondary;
+        font-size: 12px;
+    }
+
+    &:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .trending-container {
+        .col-sm {
+            justify-content: center;
+        }
+    }
+  }
+  

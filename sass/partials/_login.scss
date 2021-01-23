@@ -1,0 +1,61 @@
+.login-form {
+    background-color: #282d32;
+    max-width: 450px;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+ 
+        
+        h1 {
+            color: white;
+        }
+
+        label {
+            display: block;
+        }
+
+        input, textarea {
+            margin-bottom: 1rem;
+            width: 100%;
+        }
+
+        button {
+            width: 100%;
+        }
+
+    
+        .delete-container {
+            button {
+                background-color: red;
+                border: none;
+                color: white;
+            }
+        }      
+    
+        .featured-container {
+            margin-bottom: 1rem;
+    
+            input {
+                width: auto;
+                margin-bottom: 0;
+            }
+
+            label {
+                margin-bottom: 0;
+            }
+
+            .featured-buttons {
+                display: flex;
+        
+            input, label {
+                margin-right: 1rem;
+                align-self: center;
+            }
+        }
+    }      
+}
+
+

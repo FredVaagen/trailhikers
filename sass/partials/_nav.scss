@@ -1,0 +1,40 @@
+.navbar {
+    color: black;
+    text-transform: uppercase;
+    font-family: $font-primary;
+    
+
+    .navbar-brand {
+        font-family: $font-primary;
+        font-size: 35px;
+        color: black 
+    }
+
+    .nav-item {
+        margin-right: 1rem;
+     
+    }
+
+}
+.navbar-nav  {
+    color: black;
+}
+
+
+.navbar-left {
+    font-size: 26px;
+    
+} 
+
+// ADMIN / LOGIN MENUS
+
+.menu-container {
+    a {
+        color: black;
+        font-family: $font-primary;
+        font-size: 20px;
+        margin-right: 1rem;  
+    }
+}
+
+
